@@ -66,7 +66,7 @@ border-radius: 50px;
 }
 
 .Halo-Ux{
-    height: auto;
+    height: 450px;
     border:1px solid #ccc;
     padding: 12px 20px 12px 40px;
     margin-left:30px;
@@ -74,4 +74,79 @@ border-radius: 50px;
     border-radius: 5px;
     width: 94%;
     margin-bottom: 20px;
+    
+ 
+}
+.designer-job img{
+    width: 40px;
+    height: 40px;
+ margin-top:30px;
+    }
+
+ .member-info{
+        padding: .5em 1em;
+    }
+ .posted{
+   padding: 1em 1em 1em 45em;
+    }
+ .posted .icon, .get-in{
+        padding: 1em;
+        border:1px solid #ccc;
+        border-radius:50px; 
+        margin:.2em;
+        cursor: pointer;
+    }
+.accept-new a{
+    padding: .5em 1em;
+    border:1px solid #ccc;
+    border-radius: 50px;
+}
+.img-tag img{
+    width: 250px;
+    height: 250px;
+    padding-top:3em;
+
+}
+.img-tag{
+    display: flex;
+    justify-content: space-around;
+}
+.usd{
+    padding: 1em;
+    font-size:15px;
+}
+.searchDesign-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.designer-search img{
+    width: 250px;
+    height: 250px;
+    padding: 2em;
+}
+.project-search{
+    font-size: 40px;
+}
+.unlock-designer{
+    line-height: 2;
+    font-size:20px;
+    padding: .2em 4em;
+
+}
+.view-designer{
+    padding: 1em 8em;
+    border:1px solid #ccc;
+    border-radius: 50px;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 3px 2px 3px 2px #f1bdbd;
+}
+.view-designer:hover{
+    opacity: .8
+}
+.all-designer{
+    padding: 1.5em;
 }
